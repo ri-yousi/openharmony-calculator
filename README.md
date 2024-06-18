@@ -1,39 +1,50 @@
-# Calculator
+# ArkTS卡片计算器
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+### 介绍
 
-#### 软件架构
-软件架构说明
+本示例展示了使用ArkTS卡片开发的计算器模型。
 
+### 效果预览
 
-#### 安装教程
+| 添加卡片                                             | 卡片预览                                                    | 操作卡片                                             |
+|--------------------------------------------------|---------------------------------------------------------|--------------------------------------------------|
+| ![CalculatorAdd](screenshots/CalculatorAdd.jpeg) | ![CalculatorPreview](screenshots/CalculatorPreview.png) | ![CalculatorUse](screenshots/CalculatorUse.jpeg) |
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### 使用说明
 
-#### 使用说明
+1.长按应用图标，将卡片添加到桌面。
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+2.对桌面上的卡片进行计算操作。
 
-#### 参与贡献
+### 工程目录
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+```
+├──entry/src/main/ets                         // 代码区
+│  ├──calc
+│  │  └──pages
+│  │     └──CardCalc.ets                      // 计算器卡片页面
+│  ├──entryability
+│  │  └──EntryAbility.ets  
+│  ├──entryability
+│  │  └──EntryFormAbility.ets                 // 卡片声明周期处理文件
+│  ├──model
+│  │  └──Logger.ts                            // 日志文件
+│  └──pages
+│     └──index.ets                            // 首页
+└──entry/src/main/resources                   // 应用资源目录
 
+```
 
-#### 特技
+### 相关权限
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+不涉及。
+
+### 约束与限制
+
+1.本示例仅支持标准系统上运行，支持设备：华为手机。
+
+2.HarmonyOS系统：HarmonyOS NEXT Developer Beta1及以上。
+
+3.DevEco Studio版本：DevEco Studio NEXT Developer Beta1及以上。
+
+4.HarmonyOS SDK版本：HarmonyOS NEXT Developer Beta1 SDK及以上。
