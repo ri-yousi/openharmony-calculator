@@ -8,7 +8,7 @@
 
 | 添加卡片                                             | 卡片预览                                                    | 操作卡片                                             |
 |--------------------------------------------------|---------------------------------------------------------|--------------------------------------------------|
-| ![CalculatorAdd](screenshots/CalculatorAdd.jpeg) | ![CalculatorPreview](screenshots/CalculatorPreview.png) | ![CalculatorUse](screenshots/CalculatorUse.jpeg) |
+| ![CalculatorAdd](screenshots/CalculatorAdd.png) | ![CalculatorPreview](screenshots/CalculatorPreview.png) | ![CalculatorUse](screenshots/CalculatorUse.png) |
 
 ### 使用说明
 
