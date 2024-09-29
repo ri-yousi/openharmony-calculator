@@ -8,7 +8,7 @@ This sample shows how to develop a calculator model using the ArkTS widgets.
 
 | Adding a widget                                            | Preview the widget                                                   | Operating the widget                                            |
 |--------------------------------------------------|---------------------------------------------------------|--------------------------------------------------|
-| ![CalculatorAdd](screenshots/CalculatorAdd_EN.png) | ![CalculatorPreview](screenshots/CalculatorPreview_EN.png) | ![CalculatorUse](screenshots/CalculatorUse_EN.png) |
+| ![CalculatorAdd](screenshots/CalculatorAdd.en.png) | ![CalculatorPreview](screenshots/CalculatorPreview.en.png) | ![CalculatorUse](screenshots/CalculatorUse.en.png) |
 
 ### How to Use
 
