@@ -160,7 +160,8 @@ struct Index {
   }
 
   onInputValue = (value: string) => {
-    if (value === 'C') { // 当用户点击C按钮，表达式和运算结果归0
+    // When a user clicks the C button, the expression and operation result return to 0.
+    if (value === 'C') {
       this.expression = '';
       this.result = '';
       return;
