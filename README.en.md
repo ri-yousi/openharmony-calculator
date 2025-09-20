@@ -20,9 +20,8 @@ This sample shows how to develop a calculator model using the ArkTS widgets.
 
 ```
 ├──entry/src/main/ets                        // Code area
-│  ├──calc
-│  │  └──pages
-│  │     └──CardCalc.ets                      // Calculator widget page
+│  ├──calc/pages
+│  │  └──CardCalc.ets                        // Calculator widget page
 │  ├──entryability
 │  │  └──EntryAbility.ets  
 │  ├──entryability

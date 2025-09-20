@@ -20,9 +20,8 @@
 
 ```
 ├──entry/src/main/ets                         // 代码区
-│  ├──calc
-│  │  └──pages
-│  │     └──CardCalc.ets                      // 计算器卡片页面
+│  ├──calc/pages
+│  │  └──CardCalc.ets                         // 计算器卡片页面
 │  ├──entryability
 │  │  └──EntryAbility.ets                     // 程序入口类
 │  ├──entryability
