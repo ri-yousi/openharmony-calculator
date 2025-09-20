@@ -31,7 +31,8 @@ This sample shows how to develop a calculator model using the ArkTS widgets.
 │  │  └──Logger.ts                            // Log file
 │  └──pages
 │     └──index.ets                            // Home page
-└──entry/src/main/resources                   // App resource directory
+├──entry/src/main/resources                   // App resource directory
+└──module.json5                               // Add the widget extension capability
 ```
 
 ### Required Permissions

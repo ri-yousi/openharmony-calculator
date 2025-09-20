@@ -24,14 +24,15 @@
 │  │  └──pages
 │  │     └──CardCalc.ets                      // 计算器卡片页面
 │  ├──entryability
-│  │  └──EntryAbility.ets  
+│  │  └──EntryAbility.ets                     // 程序入口类
 │  ├──entryability
 │  │  └──EntryFormAbility.ets                 // 卡片声明周期处理文件
 │  ├──model
-│  │  └──Logger.ts                            // 日志文件
+│  │  └──Logger.ts                            // 日志工具
 │  └──pages
 │     └──index.ets                            // 首页
-└──entry/src/main/resources                   // 应用资源目录
+├──entry/src/main/resources                   // 应用资源目录
+└──module.json5                               // 应用配置文件
 ```
 
 ### 相关权限
