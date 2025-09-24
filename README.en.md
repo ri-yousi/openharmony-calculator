@@ -24,7 +24,7 @@ This sample shows how to develop a calculator model using the ArkTS widgets.
 │  │  └──CardCalc.ets                        // Calculator widget page
 │  ├──entryability
 │  │  └──EntryAbility.ets  
-│  ├──entryability
+│  ├──entryformability
 │  │  └──EntryFormAbility.ets                 // File for periodically processing the widget declaration
 │  ├──model
 │  │  └──Logger.ts                            // Log file
