@@ -24,7 +24,7 @@
 │  │  └──CardCalc.ets                         // 计算器卡片页面
 │  ├──entryability
 │  │  └──EntryAbility.ets                     // 程序入口类
-│  ├──entryability
+│  ├──entryformability
 │  │  └──EntryFormAbility.ets                 // 卡片声明周期处理文件
 │  ├──model
 │  │  └──Logger.ts                            // 日志工具
