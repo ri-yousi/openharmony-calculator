@@ -1,0 +1,15 @@
+{
+  "entry\\src\\main\\ets\\entryability\\EntryAbility.ets": [
+    "ohos.app.ability.UIAbility",
+    "ohos.app.ability.Want",
+    "ohos.app.ability.AbilityConstant"
+  ],
+  "entry\\src\\main\\ets\\entryformability\\EntryFormAbility.ets": [
+    "ohos.app.form.formBindingData",
+    "ohos.app.form.formInfo",
+    "ohos.app.form.FormExtensionAbility"
+  ],
+  "entry\\src\\main\\ets\\model\\Logger.ts": [
+    "ohos.hilog"
+  ]
+}

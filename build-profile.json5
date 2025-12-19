@@ -1,14 +1,26 @@
 {
   "app": {
     "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:/Users/Lenovo/.ohos/config/openharmony/default_calculator_JypEu7wQOyukz3ZZUB2-QkcNFu9-5zjtJUzBOrTPZ9Q=.cer",
+          "storePassword": "0000001B7A6A94B29B817EB5D6434D7A667D9445B5D40829963E74DCAD2E9D6DC28622E1E3E122807478CE",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B38B51A042231545A7388807E4F9B6779A3151DDD52B24D9D38A3DEAF63F82BF1BD98551A5E705F",
+          "profile": "C:/Users/Lenovo/.ohos/config/openharmony/default_calculator_JypEu7wQOyukz3ZZUB2-QkcNFu9-5zjtJUzBOrTPZ9Q=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:/Users/Lenovo/.ohos/config/openharmony/default_calculator_JypEu7wQOyukz3ZZUB2-QkcNFu9-5zjtJUzBOrTPZ9Q=.p12"
+        }
+      }
     ],
     "products": [
       {
         "name": "default",
         "signingConfig": "default",
-        "compatibleSdkVersion": "5.0.5(17)",
-        "targetSdkVersion": "5.0.5(17)",
-        "runtimeOS": "HarmonyOS"
+        "compileSdkVersion": 12,
+        "compatibleSdkVersion": 12,
+        "runtimeOS": "OpenHarmony"
       }
     ]
   },

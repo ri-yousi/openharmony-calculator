@@ -1,0 +1,144 @@
+{
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "F:\\HWpro\\calculator\\entry\\build",
+    "DEPENDENCY_INFO": {},
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "F:\\HWpro\\calculator\\entry\\src\\main",
+        "RESOURCES_PATH": [
+          "F:\\HWpro\\calculator\\entry\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "F:\\HWpro\\calculator\\entry\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "F:\\HWpro\\calculator\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "F:\\HWpro\\calculator\\entry\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "F:\\HWpro\\calculator\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "F:\\HWpro\\calculator\\entry\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "F:\\HWpro\\calculator\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "F:\\HWpro\\calculator\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "F:\\HWpro\\calculator\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "F:\\HWpro\\calculator\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "F:\\HWpro\\calculator\\entry\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "F:\\HWpro\\calculator\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "F:\\HWpro\\calculator\\entry\\src\\ohosTest",
+        "RESOURCES_PATH": [
+          "F:\\HWpro\\calculator\\entry\\src\\ohosTest\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "F:\\HWpro\\calculator\\entry\\build\\default\\outputs\\ohosTest",
+          "INTERMEDIA_PATH": "F:\\HWpro\\calculator\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "F:\\HWpro\\calculator\\entry\\build\\default\\intermediates\\loader_out\\ohosTest",
+          "JS_LITE_ASSETS_PATH": "F:\\HWpro\\calculator\\entry\\build\\default\\intermediates\\loader_out_lite\\ohosTest",
+          "RES_PATH": "F:\\HWpro\\calculator\\entry\\build\\default\\intermediates\\res\\ohosTest",
+          "RES_PROFILE_PATH": "F:\\HWpro\\calculator\\entry\\build\\default\\intermediates\\res\\ohosTest\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "F:\\HWpro\\calculator\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "F:\\HWpro\\calculator\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileJS\\jsbundle",
+          "WORKER_LOADER": "F:\\HWpro\\calculator\\entry\\build\\default\\intermediates\\loader\\ohosTest\\loader.json",
+          "MANIFEST_JSON": "F:\\HWpro\\calculator\\entry\\build\\default\\intermediates\\manifest\\ohosTest",
+          "OUTPUT_METADATA_JSON": "F:\\HWpro\\calculator\\entry\\build\\default\\intermediates\\hap_metadata\\ohosTest\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    }
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "F:\\HWpro\\calculator\\build",
+    "BUNDLE_NAME": "com.samples.arktscalc",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "F:\\HWpro\\calculator\\build\\outputs\\default"
+    },
+    "MODULES": [
+      {
+        "name": "entry",
+        "srcPath": "F:\\HWpro\\calculator\\entry",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "F:\\HWpro\\calculator"
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "signingConfigs": [
+          {
+            "name": "default",
+            "material": {
+              "certpath": "C:/Users/Lenovo/.ohos/config/openharmony/default_calculator_JypEu7wQOyukz3ZZUB2-QkcNFu9-5zjtJUzBOrTPZ9Q=.cer",
+              "storePassword": "0000001B7A6A94B29B817EB5D6434D7A667D9445B5D40829963E74DCAD2E9D6DC28622E1E3E122807478CE",
+              "keyAlias": "debugKey",
+              "keyPassword": "0000001B38B51A042231545A7388807E4F9B6779A3151DDD52B24D9D38A3DEAF63F82BF1BD98551A5E705F",
+              "profile": "C:/Users/Lenovo/.ohos/config/openharmony/default_calculator_JypEu7wQOyukz3ZZUB2-QkcNFu9-5zjtJUzBOrTPZ9Q=.p7b",
+              "signAlg": "SHA256withECDSA",
+              "storeFile": "C:/Users/Lenovo/.ohos/config/openharmony/default_calculator_JypEu7wQOyukz3ZZUB2-QkcNFu9-5zjtJUzBOrTPZ9Q=.p12"
+            }
+          }
+        ],
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "compileSdkVersion": 12,
+            "compatibleSdkVersion": 12,
+            "runtimeOS": "OpenHarmony"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "entry",
+          "srcPath": "./entry",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true
+    },
+    "OVERALL_PROJECT_PATHS": [
+      "F:\\HWpro\\calculator"
+    ]
+  },
+  "version": 1
+}
